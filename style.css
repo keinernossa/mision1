@@ -1,0 +1,111 @@
+
+.montserrat{
+    font-family: "Montserrat", serif;
+    font-optical-sizing: auto;
+    font-weight: 1000;
+    font-style: normal;
+    font-size: 100px;
+  }
+  .titulo{
+    font-size: 50px;
+    text-align: center;
+
+  }
+  body{
+    font-family:"montserrat",serif;
+    background-image:url("imagen01.jpg") ;
+    background-size: auto;
+}
+.caja{
+    display: flex;
+    width: 70%;
+    margin-right: 25%;
+    margin-left: 15%;
+    padding: 0%;
+
+}
+.contenedor{
+    display: flex;
+}
+  .grid-container {
+    display: grid;
+    grid-template-columns: 20 20 20;
+  }
+  .grid-item {
+    background-color: aqua;
+  } 
+  @media(max-width: 600px){}
+        .contenedor {
+          flex-direction: column;
+        }
+        img{
+          border: 4px solid rgb(0, 0, 0);
+          margin: 10px;
+        }
+        .titulo01{
+          font-size: 50px;
+         text-align: center;
+        }
+        .titulo02{
+          font-size: 50px;
+          text-align: center;
+        }
+      .titulo03{
+        font-size: 50px;
+        text-align: center;
+      }
+      .titulo04{
+        font-size: 50px;
+        text-align: center;
+      }
+      .caja01{
+        display: flex;
+        width: 70%;
+        margin-right: 25%;
+        margin-left: 15%;
+        padding: 0%;
+        border: 4px solid rgb(0, 0, 0);
+        margin: 10px auto;
+        text-align: center;
+        
+      }
+      .precios01{
+        display: flex;
+        width: 70%;
+        margin-right: 25%;
+        margin-left: 15%;
+        padding: 0%;
+        border: 4px solid rgb(0, 0, 0);
+        margin: 10px auto;
+        text-align: center;
+      }
+      .precios02{
+        display: flex;
+        width: 70%;
+        margin-right: 25%;
+        margin-left: 15%;
+        padding: 0%;
+        border: 4px solid rgb(0, 0, 0);
+        margin: 10px auto;
+        text-align: center;
+      }
+      .precios03{
+        display: flex;
+        width: 70%;
+        margin-right: 25%;
+        margin-left: 15%;
+        padding: 0%;
+        border: 4px solid rgb(0, 0, 0);
+        margin: 10px auto;
+        text-align: center;
+      }
+      .precios04{
+        display: flex;
+        width: 70%;
+        margin-right: 25%;
+        margin-left: 15%;
+        padding: 0%;
+        border: 4px solid rgb(0, 0, 0);
+        margin: 10px auto;
+        text-align: center;
+      }
